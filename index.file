@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnolia Flowers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        img.align-left {
+            float: left;
+            margin-right: 15px;
+            border-radius: 8px;
+        }
+
+        img.align-right {
+            float: right;
+            margin-left: 15px;
+            border-radius: 8px;
+        }
+
+        img.responsive {
+            width: 100%;
+            height: auto;
+            max-width: 250px;
+        }
+
+        p {
+            overflow: auto;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            img.align-left, img.align-right {
+                float: none;
+                display: block;
+                margin: 10px auto;
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <img src="https://i2.pickpik.com/photos/218/994/354/magnolias-flower-blossom-spring-30237a04b14fa2168b7feb14e345d223.jpg" 
+             alt="Magnolia Flower" 
+             class="align-left responsive">
+        <b><i>Magnolia</i></b> is a beautiful flowering plant with large, fragrant blossoms. 
+        These trees are known for their early spring bloom and add elegance to gardens and parks worldwide.
+    </p>
+
+    <p>
+        <img src="https://images.squarespace-cdn.com/content/v1/5fdc37ac64d87c40396ca2e5/53a6a9d0-90a5-4fb5-bf68-61c4c0671bb3/012-magnolia-DavetheMage.jpg" 
+             alt="Magnolia Blossom" 
+             class="align-right responsive">
+        Some magnolias, like <i>Magnolia stellata</i> and <i>Magnolia soulangena</i>, bloom before their leaves open, creating a spectacular display. 
+        Their elegance and longevity make them a favorite for ornamental planting.
+    </p>
+</body>
+</html>
